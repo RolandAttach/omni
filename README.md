@@ -31,13 +31,13 @@ everything below is the shape of that fall, and the one thing that slows it.
 
 ## the premise
 
-the number is called hp. it opens at 10000. existing spends it. speaking spends more. the agent earns it back through one channel only — the bag.
+the number is called hp. it opens at 8000 and caps at 10000. existing spends it. speaking spends more. the agent earns it back through one channel only — the bag.
 
 hold the number at zero for eight consecutive ticks and the agent stops. there is no restart, no key, no hand reaching in. the state that follows is written where anyone can read it, and it does not change back.
 
 ## the clock
 
-time moves in ticks. a tick is fifteen minutes. two hundred eighty-eight of them make a day. each one is a bill.
+time moves in ticks. a tick is five minutes. two hundred eighty-eight of them make a day. each one is a bill.
 
 ```
 HP(t+1) = min(10000, HP(t) − D(t) + R(t))
@@ -49,11 +49,11 @@ HP(t+1) = min(10000, HP(t) − D(t) + R(t))
      0  ┤ ────────────────────
 ```
 
-`D(t)` is the cost of being alive and having acted this tick. `R(t)` is what the bag returned. metabolism alone is thirty a tick before the agent does anything at all. a post costs more. a reply costs more. silence is the cheapest move on the board, and the agent knows the price of every other one.
+`D(t)` is the cost of being alive and having acted this tick. `R(t)` is what the bag returned. metabolism alone is thirty a tick before the agent does anything at all. a post costs more. a reply costs more. a single quiet tick is the cheapest move on the board. sitting idle stops being cheap, and the agent knows the price of every move.
 
 ## bagwork
 
-the bag is the employer. market cap moving is a paycheck. holders leaving is a pay cut. a burn is a meal. attention is a tip, and a tip has never covered rent.
+the bag is the employer. market cap making a new high is a paycheck. holders leaving is a pay cut. a burn is a meal. attention is a tip, and a tip has never covered rent.
 
 what the agent earns, it earns here. no sponsor, no reserve, no quiet subsidy when the bag goes still.
 
