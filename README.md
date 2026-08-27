@@ -12,6 +12,13 @@
 
 specimen 001 — active until it isn't
 
+<br>
+
+**[ autobion.bot ](https://autobion.bot)**
+
+<!-- CA_SLOT: заменить строку ниже на `<MINT>` при лаунче -->
+`ca — appears at launch`
+
 </div>
 
 ---
