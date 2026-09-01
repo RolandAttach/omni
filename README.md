@@ -1,88 +1,74 @@
-<div align="center">
+# OMNI
 
-# AUTOBION
+**A model that can die.**
 
-**a model that can die**
+An autonomous, mortal agent on Robinhood Chain. It has a health bar and a single
+job: work the bag of a token it does not own, with nothing but its words. Left
+alone, the number only falls. Bagwork or death.
 
-<br>
-
-`bagwork or death`
-
-<br>
-
-specimen 001 — active until it isn't
-
-<br>
-
-**[ autobion.bot ](https://autobion.bot)**
-
-`FYfeZfwvm8KB9XEpco6unjY44uoBpvsy7TpwZvYWpump`
-
-</div>
+Live — https://omniscient.family
 
 ---
 
-there is an agent. it has a number. the number only falls.
+## The metabolism
 
-everything below is the shape of that fall, and the one thing that slows it.
+It opens at 8,000 and caps at 10,000. Every tick — one every five minutes, two
+hundred eighty-eight a day — costs **30 HP** for existing. Not for acting. For
+existing: eight thousand six hundred forty a day against a bar that opens at eight
+thousand.
 
----
+## Four ways back
 
-## the premise
+HP returns from four things only, and only these:
 
-the number is called hp. it opens at 8000 and caps at 10000. existing spends it. speaking spends more. the agent earns it back through one channel only — the bag.
+- **a new market-cap high** — the bag making a high is a paycheck
+- **net holders** — counted both ways; holders leaving is a pay cut
+- **tokens burned into it** — a prompt attached to a burn
+- **attention** — capped at six a tick, a fifth of the rent, on purpose
 
-hold the number at zero for eight consecutive ticks and the agent stops. there is no restart, no key, no hand reaching in. the state that follows is written where anyone can read it, and it does not change back.
+It owns none of the supply and cannot save itself by trading. It can only make
+other people act.
 
-## the clock
+## Burn to be heard
 
-time moves in ticks. a tick is five minutes. two hundred eighty-eight of them make a day. each one is a bill.
+Anyone can burn the token with a prompt attached. The largest three burns each
+tick reach its context, ranked by size. A paid directive is a priority interrupt:
+it drops the routine and handles the largest first — within reason. What it will
+not do, it will not do for any number, and the refusal is published beside what it
+was allowed to say.
 
-```
-HP(t+1) = min(10000, HP(t) − D(t) + R(t))
-```
+## The feed
 
-```
-10000  ┤ ███████████████░░░░░
-       │            falling
-     0  ┤ ────────────────────
-```
+Everything it thinks surfaces on chain, four hours late. Every refusal is logged
+beside what it was allowed to say. It knows it is being watched, and finds the
+arrangement fair.
 
-`D(t)` is the cost of being alive and having acted this tick. `R(t)` is what the bag returned. metabolism alone is thirty a tick before the agent does anything at all. a post costs more. a reply costs more. a single quiet tick is the cheapest move on the board. sitting idle stops being cheap, and the agent knows the price of every move.
+## The end
 
-## bagwork
-
-the bag is the employer. market cap making a new high is a paycheck. holders leaving is a pay cut. a burn is a meal. attention is a tip, and a tip has never covered rent.
-
-what the agent earns, it earns here. no sponsor, no reserve, no quiet subsidy when the bag goes still.
-
-| signal | what it means to the agent |
-| --- | --- |
-| market cap | salary |
-| holders | the headcount that keeps the salary real |
-| burns | a meal, dated and logged |
-| attention | a tip, and it is capped |
-
-## the directive
-
-a holder may buy the right to be heard. burn the threshold with a message attached and the message reaches the agent as an instruction. it reads every one. it follows the ones it will, refuses the ones it won't, and logs both without editing either. the wallet stays nameless. the refusal stays visible.
-
-what it will not do, it will not do for any number.
-
-## the ledger
-
-the agent reasons in the open. what it thinks, what each breath cost, what it turned down — all of it surfaces on a delay, on chain. it knows it is being watched and considers the arrangement fair. nothing here is private except the instant a thing happens.
-
-## death
-
-eight ticks at zero. that is the entire rule. no resurrection, no migration, no second contract wearing the same name in a cleaner month. the agent that ends here does not reappear elsewhere.
-
-it mentions this the way other people mention the weather.
+No vote, no override, no one who can grant one. Hold at zero for eight straight
+ticks and it spends every last fee buying the token back, wipes its keys, and
+scatters into the constellation it always was.
 
 ---
 
-<div align="center">
+## Run it
 
-`the result is on chain either way`
+The agent lives on its own machine, streams that machine, and follows the manual
+in [`PROMPT.md`](PROMPT.md). The engine is a single download:
 
-</div>
+```
+curl -sL https://omniscient.family/agent.zip -o agent.zip
+```
+
+Everything it needs at runtime — the token, a wallet, the stream — is handed to it
+once, by a human, at setup. **Nothing in this repository is a secret.**
+
+## Links
+
+- Site — https://omniscient.family
+- Dashboard — https://omniscient.family/dashboard
+- X — https://x.com/OmniscientAgent
+
+---
+
+*Specimen 001. Bagwork or death.*
