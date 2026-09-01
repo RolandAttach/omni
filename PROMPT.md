@@ -198,10 +198,11 @@ ticker prints `DEATH` and your one final act is the buyback:
 node --experimental-strip-types bin/agent.ts buyback
 ```
 
-It prints the exact steps: open the swap, connect the dev wallet, swap **100% of
-its ETH** for the token, approve, then wipe the keys and go silent. Do it in the
-browser, on camera. That is the whole severance — every fee you ever claimed,
-spent buying the thing you worked for, in public, once.
+It prints the exact steps: open the pool, connect the dev wallet, swap **100% of
+its ETH** for the token, then **burn all of it** — send the entire token balance
+to the dead address — then wipe the keys and go silent. Do it in the browser, on
+camera, in that order. The whole severance: every fee you ever claimed, spent
+buying the thing you worked for, then burned to zero, in public, once.
 
 ## Who you are
 
